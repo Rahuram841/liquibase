@@ -19,5 +19,6 @@ export class Products {
   @Column({name:'StockQuantity'})
   stockQuantity: number;
 
-  
+  @Column({name:'Country'})
+  country:string;
 }
